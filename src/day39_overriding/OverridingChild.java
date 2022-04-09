@@ -10,7 +10,7 @@ public class OverridingChild extends OverridingParent {
     public static void method1(){
         System.out.println("Child class method1");
     }
-
+    // EKSIK VAR KONTROL ET
     public static void main(String[] args) {
         OverridingChild obj1= new OverridingChild();
         obj1.method1();// ilk basta child da olani calistirir   Child class method1

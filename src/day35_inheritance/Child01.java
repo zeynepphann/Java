@@ -1,6 +1,6 @@
 package day35_inheritance;
 
-public class Child01 extends Parent{
+public class Child01 extends Parent{ // parenti childa baglar
     public static void main(String[] args) {
         /*
         Child class hic bir objeye ihtiyac duymadan

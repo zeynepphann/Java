@@ -3,7 +3,6 @@ package day36_inheritance;
 public class Memur extends Muhasebe{
 
 
-
     public static void main(String[] args) {
 
 
@@ -37,7 +36,8 @@ public class Memur extends Muhasebe{
     }
 
     @Override
-    public String toString() {
+    public String toString() { // objelerin tum ozelliklerini yazar
+        // code generate toString istediklerini sec crtl ile
         return "Memur{" +
                 "saatUcreti=" + saatUcreti +
                 ", statu='" + statu + '\'' +

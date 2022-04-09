@@ -1,6 +1,6 @@
 package day36_inheritance;
 
-public class Muhasebe extends Personel{
+public class Muhasebe extends Personel{ //muhasebeyi parenta bagladim
 
     protected int saatUcreti;
     protected  String statu;

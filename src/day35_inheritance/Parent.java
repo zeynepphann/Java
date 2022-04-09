@@ -6,10 +6,12 @@ public class Parent {
     protected static String fabrika= "Yildiz Tekstil";
 
     public static void method1(){
+
         System.out.println("method1");
     }
 
     protected static void method2(){
+
         System.out.println("protected method2");
     }
 }
