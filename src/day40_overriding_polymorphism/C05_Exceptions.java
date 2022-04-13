@@ -19,14 +19,17 @@ public class C05_Exceptions {
 
             try {
                 sayi = scan.nextInt();
+                toplam+=sayi;
             } catch (InputMismatchException e) {
 
+                String hataliGiris=scan.next();
+                if (hataliGiris.equalsIgnoreCase("q")){
+                    System.out.println("Girdiginiz sayilarin toplami: " +toplam);
+                    break;
+                }else {
+                    System.out.println("Hatali giris yaptiniz");
+                }
             }
-
-
-
-
-            toplam+=sayi;
 
         }while (toplam<500);
     }

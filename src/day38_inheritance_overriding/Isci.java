@@ -8,6 +8,7 @@ public class Isci extends Personel{
 
 
     public void mesai(){
+
         System.out.println("Tum isciler haftalik 40 saat calisir");
     }
 

@@ -8,10 +8,12 @@ public class Araba {
 
 
     public void motor(){
+
         System.out.println("arabalar farkli markalarda motor kullanirlar");
     }
 
     public void yakitTuketimi(){
+
         System.out.println("arabalar motor gucu ve yakit turune gore yakit tuketirler");
     }
 }

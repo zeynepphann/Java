@@ -23,11 +23,13 @@ public class Child extends Parent {
         // Eger parent class'dan parametresiz constructor'i degil de
         // baska bir constructor'i calistirmak isterseniz
         // bunu Child class'daki constructor'in ILK SATIRINA yazmalisiniz
+        // aslinda burada super(); var ama biz onu kendi olusturdugumuz cons.la ezeriz
         super(sayi1,sayi2);
         System.out.println("Child iki parametreli cons.");
     }
 
     public static void main(String[] args) {
+
         Child child=new Child(5,8);
     }
 

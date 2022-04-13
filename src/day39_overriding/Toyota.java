@@ -8,10 +8,12 @@ public class Toyota extends Araba{
     String sirketMerkezi="Japonya";
 
     public void motor(){
+
         System.out.println("toyota arabalar toyota marka motor kullanirlar");
     }
 
-    public void garanti(){
+    public void garanti() {
+
         System.out.println("toyota araclar 10 yil garantilidir ");
     }
 }
