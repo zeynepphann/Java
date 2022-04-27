@@ -17,23 +17,23 @@ public class C04_ArraydenTekrarlariSilme {
     }
 
     private static int[] benzersizYap(int[] arr) {
-        Set<Integer> benzersizSet= new TreeSet<>();
+        Set<Integer> benzersizSet= new TreeSet<>(); //tree dogal siralama
         for (Integer each : arr
              ) {
             benzersizSet.add(each);
 
         }
-        System.out.println(benzersizSet);
+        System.out.println(benzersizSet);//sette index yapisi yoktur dolayisiyla for loop kullanamayiz
+            int index=0;
+           // arr[]
         //Integer arrBenzersiz[]=new
         return arr;
-        // sette index yapisi yoktur dolayisiyla for loop kullanamayiz
 
-      //  int index=0;
-      //  for (Integer each : benzersizSet
-          //   ) {
+
+
+
 
         }
         }
 
 
-    //}
